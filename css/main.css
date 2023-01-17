@@ -131,6 +131,21 @@ height: 40px;
 #process.s-process {
   /* margin-top: 15px; */
 }
+.pfp-image {
+  /* border-radius: 30%; */
+  width: 280px;
+  height: 100%;
+  border-radius: 7px;
+
+  max-height: 340px;
+  object-fit: fill;
+  z-index: 1;
+  position: relative;
+  top: 10px;
+  left: 80px;
+  /* left: 820px; */
+  /* bottom: 20px; */
+}
 .project-image-gap{
   /* border: 2px solid rgb(255, 187, 0); */
   gap: 5px 20px;
@@ -932,6 +947,8 @@ input[type="button"].btn--primary {
   background: #1b6d86;
   border-color: #1b6d86;
   color: #FFFFFF;
+  position: relative;
+  left: 110px;
 }
 
 .btn.btn--primary:hover,
@@ -1750,6 +1767,8 @@ input::-moz-focus-inner {
   margin-bottom: 1px;
 }
 .header-logo a:hover {
+  position: relative;
+  top: 5px;
   color: rgb(248, 152, 7);
 }
 .header-logo img {
@@ -2129,10 +2148,10 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: auto;
-  left: auto;
+  top: 150px;
+  /* left: auto; */
   right: 25px;
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 /* -------------------------------------------------------------------
@@ -2146,6 +2165,7 @@ input::-moz-focus-inner {
   width: 100%;
   overflow: hidden;
   position: relative;
+  top: 20px;
 }
 
 .home-content h1 {
